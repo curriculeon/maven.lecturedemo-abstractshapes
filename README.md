@@ -1,7 +1,7 @@
-# Project Title
+# Abstract Shapes
 
-* **Objective** - To create a `Leon` which is a `Person` and `PetOwner`.
-* **Purpose** - To gain familiarity inheritance and composition
+* **Objective** - To create a `Square` and `Rectangle` which extend a `Polygon` and implement a `Shape`
+* **Purpose** - To gain familiarity abstract classes and inheritance
 
 
 

@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.curriculeon</groupId>
-    <artifactId>myfirstpetowner</artifactId>
+    <artifactId>abstractshapes</artifactId>
     <version>1.0</version>
 
     <build>
