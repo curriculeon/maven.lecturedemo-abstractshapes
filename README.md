@@ -1,4 +1,4 @@
-# Abstract Shapes
+# Abstract Shapes (Under Construction)
 
 * **Objective** - To create a `Square` and `Rectangle` which extend a `Polygon` and implement a `Shape`
 * **Purpose** - To gain familiarity abstract classes and inheritance
