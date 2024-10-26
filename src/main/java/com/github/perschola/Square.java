@@ -6,6 +6,8 @@ package com.github.perschola;
 public class Square extends Rectangle implements Shape {
     public Square(Integer width) {
         super(width);
+        this.width = width;
+        this.height=width;
     }
 
     public Square() {
