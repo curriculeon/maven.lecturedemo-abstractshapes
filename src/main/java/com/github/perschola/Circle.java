@@ -9,18 +9,24 @@ public class Circle extends Polygon implements Shape {
     }
     @Override
     public Integer getHeight() {
-        return getHeight();
+        return height;
     }
 
 
 
     @Override
     public Integer getWidth() {
-        return getWidth();
+        return width;
     }
 
     @Override
     public String getDimensions() {
-        return getDimensions();
+        String expectedDimensions = new StringBuilder()
+                .append("My dimensions are ")
+                .append("(3.14 * ")
+                .append(width)
+                .append(" squared")
+                .toString();
+        return expectedDimensions;
     }
 }
