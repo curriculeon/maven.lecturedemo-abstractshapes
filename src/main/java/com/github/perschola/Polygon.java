@@ -4,8 +4,8 @@ package com.github.perschola;
  * Created by leon on 12/17/2019.
  */
 abstract public class Polygon {
-    protected Integer height =333;
-    protected Integer width=222;
+    protected Integer height =0;
+    protected Integer width=0;
 
     public Polygon(Integer width) {
         this.width =width;

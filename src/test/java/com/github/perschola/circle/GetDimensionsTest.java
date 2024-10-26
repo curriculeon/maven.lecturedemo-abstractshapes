@@ -1,5 +1,6 @@
 package com.github.perschola.circle;
 
+import com.github.perschola.Circle;
 import com.github.perschola.Shape;
 import org.junit.Assert;
 import org.junit.Test;
@@ -11,6 +12,7 @@ public class GetDimensionsTest {
     // given
     private void test(Integer expectedWidth) {
         Circle circle = new Circle();
+        circle.setWidth(expectedWidth);
         Shape squareAsPolygon = (Shape) (Object) circle;
         String expectedDimensions = new StringBuilder()
                 .append("My dimensions are ")
