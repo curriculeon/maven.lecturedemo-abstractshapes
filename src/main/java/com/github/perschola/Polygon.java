@@ -4,11 +4,12 @@ package com.github.perschola;
  * Created by leon on 12/17/2019.
  */
 abstract public class Polygon {
-    private Integer height;
-    private Integer width;
+    protected Integer height =333;
+    protected Integer width=222;
 
     public Polygon(Integer width) {
-        this.width = width;
+        this.width =width;
+        this.height=width;
     }
 
     public Polygon() {
@@ -22,6 +23,12 @@ abstract public class Polygon {
         this.width = width;
     }
 
-    abstract public Integer getHeight();
-    abstract public Integer getWidth();
+    public Integer getHeight(){
+        return this.height;
+    };
+
+    public Integer getWidth(){
+        return this.width;
+    };
+
 }

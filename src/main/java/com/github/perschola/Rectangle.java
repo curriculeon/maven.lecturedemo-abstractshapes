@@ -14,11 +14,11 @@ public class Rectangle extends Polygon{
 
     @Override
     public Integer getHeight() {
-        return getHeight();
+        return this.height;
     }
 
     @Override
     public Integer getWidth() {
-        return getWidth();
+        return this.width;
     }
 }

@@ -10,19 +10,15 @@ public class Square extends Rectangle implements Shape {
 
     public Square() {
     }
-
-    @Override
-    public Integer getHeight() {
-        return getHeight();
-    }
-
-    @Override
-    public Integer getWidth() {
-        return getWidth();
-    }
-
     @Override
     public String getDimensions() {
-        return getDimensions();
+        String expectedDimensions = new StringBuilder()
+                .append("My width is ")
+                .append(width)
+                .append(". My height is")
+                .append(width)
+                .toString();
+
+      return expectedDimensions;
     }
 }
